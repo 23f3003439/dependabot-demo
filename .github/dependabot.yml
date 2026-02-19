@@ -1,0 +1,32 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+```
+4. Click **"Commit changes"** → **"Commit directly to the main branch"** → **"Commit changes"**
+
+---
+
+## Step 6: Create `README.md`
+
+1. Click **"Add file" → "Create new file"**
+2. Name the file: `README.md`
+3. Paste this as the content:
+```
+# My Project
+
+23f3003439@ds.study.iitm.ac.in
+```
+4. Click **"Commit changes"** → **"Commit directly to the main branch"** → **"Commit changes"**
+
+---
+
+## Step 7: Copy Your Repository URL
+
+Your repo URL will look like:
+```
+https://github.com/YOUR_USERNAME/dependabot-demo
